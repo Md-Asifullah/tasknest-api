@@ -14,7 +14,7 @@ Route::prefix('auth')->group(function () {
     Route::post('/register', RegisterController::class);
 });
 
-require __DIR__ . '/api/v1.php';
+// require __DIR__ . '/api/v1.php';
 require __DIR__ . '/api/v2.php';
 
 Route::get('/user', function (Request $request) {
